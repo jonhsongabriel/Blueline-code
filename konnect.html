@@ -1,0 +1,102 @@
+<style>
+    // filter:blur(3px);
+  //-webkit-filter: blur(3px);
+  brightness(0.4);
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TABLEAU RESPONSIVE DES OFFRES</title>
+</head>
+<body>
+     <section>
+      <div class="table-responsive">
+        <table class="table caption-top">
+          <thead>
+            <tr>
+              <th></th>
+              <th scope="col kl-tb-plan">PLAN 5</th>
+              <th scope="col kl-tb-plan">PLAN 5</th>
+              <th scope="col kl-tb-plan">PLAN 5</th>
+              <th scope="col kl-tb-plan">PLAN 5</th>
+              <th scope="col kl-tb-plan">PLAN 5</th>
+              <th scope="col kl-tb-plan">PLAN 5</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th scope="col kl-plan-prix"><b class="kl-prix">15€</b>/mois</th>
+              <th scope="col kl-plan-prix"><b class="kl-prix">25€</b>/mois</th>
+              <th scope="col kl-plan-prix"><b class="kl-prix">50€</b>/mois</th>
+              <th scope="col kl-plan-prix"><b class="kl-prix">75€</b>/mois</th>
+              <th scope="col kl-plan-prix"><b class="kl-prix">110€</b>/mois</th>
+              <th scope="col kl-plan-prix"><b class="kl-prix">200€</b>/mois</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Volume en journée mensuel</th>
+              <td>5Go</td>             
+              <td>10Go</td>             
+              <td>25Go</td>             
+              <td>50Go</td>             
+              <td>100Go</td>             
+              <td>250Go</td>             
+            </tr>
+            <tr>
+              <th scope="row">Volume nuit mensuel</th>
+              <td></td>
+              <td>250Go de 22h à 6h </td>
+              <td></td>
+              <td></td>
+              <td>300Go de 22h à 6h</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Vitesse max*(téléchangement)</th>
+              <td>5Mbps</td>
+              <td>10Mbps</td>
+              <td>10Mbps</td>
+              <td>20Mbps</td>
+              <td>25Mbps</td>
+              <td>25Mbps</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+     </section>
+     <div class="kl-angle"></div>
+     <div class="kl-plan-info">
+      <b class="kl-prix">15€</b>/mois
+      </div>
+      <div class="kl-angle"></div>
+     <style>
+         .kl-tb-plan
+         {
+          background-color: #333366;
+          color: white;
+         }
+         .kl-plan-prix
+         {
+          background-color: #99cccc;
+          color: #ffffff;         
+         }
+         .kl-prix
+         {
+          color: #333366;
+          font-size: 2em;
+         }
+         .kl-angle
+         {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 200px 100px 0 100px;
+          border-color: #99cccc transparent transparent transparent;
+         }
+
+     </style>
+</body>
+</html>
